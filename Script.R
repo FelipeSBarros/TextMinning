@@ -1,6 +1,11 @@
 rm(list=ls())
 # Script from http://neylsoncrepalde.github.io/2016-03-18-analise-de-conteudo-twitter/
 # http://neylsoncrepalde.github.io/2017-03-20-nuvens-de-palavras-dinamicas/
+install.packages('twitteR', dependencies = TRUE)
+install.packages('wordcloud', dependencies = TRUE)
+install.packages('tm', dependencies = TRUE)
+install.packages('plyr', dependencies = TRUE)
+
 # Loading libraries ----
 library(twitteR)
 library(wordcloud)
